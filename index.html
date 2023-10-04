@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Learner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="languageBar">
+        <div class="flag"><img src="images/QCFR.jpg" alt="" srcset="" onclick="changeLanguage('french')"></div>
+        <div class="flag"> <img src="images/english.png" alt="" onclick="changeLanguage('english')"></div>
+    </div>
+    
+    <div id="playBox">
+        <div id="imgPlace"></div>
+        <div id="inputBox">
+            
+            <input type="text"  placeholder="De quel note s'agit t'il ?" id="result">
+            <button onclick="checkResult()">Check</button>
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

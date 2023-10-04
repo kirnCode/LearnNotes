@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(120, 144, 196, 0.349);
+    user-select: none;
+}
+
+#languageBar{
+    position: fixed;
+    display: flex;
+    gap: 5px;
+    width: 90px;
+    height: 25px;
+    right: 15px;
+    
+}
+
+.flag{
+    flex-grow: 1;
+    
+}
+
+.flag img{
+    height: 100%;
+    cursor: pointer;
+}
+#playBox{
+    position: fixed;
+    width: 500px;
+    height: 500px;
+ 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#imgPlace{
+    background-color: white;
+    width: auto;
+    height: 75%;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#imgPlace img{
+    position: absolute;
+
+    left: 42%;
+    top: 50%;
+    transform: translate(-42%, -50%);
+    
+   
+    
+}
+
+#inputBox{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    bottom: 8px;
+    
+
+}
+
+#inputBox input{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+#inputBox input:focus::placeholder{
+    color: transparent;
+}
+
+
+#inputBox button{
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#inputBox button:hover{
+    background-color: rgb(186, 191, 207);
+}
